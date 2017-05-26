@@ -65,7 +65,6 @@
 #define IDC_COMBO1                      1025
 #define IDC_EDIT16                      1026
 #define IDC_EDIT_CHANNEL1SENSORSUBTYPE  1026
-#define IDC_LIST1                       1026
 #define IDC_LIST_VIEW                   1026
 #define IDC_EDIT17                      1027
 #define IDC_EDIT_CHANNEL2SENSORSUBTYPE  1027

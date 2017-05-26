@@ -151,8 +151,8 @@ void CStationSet::OnBnClickedButtonStationsetOk()
 		}
 
 		//扫描间隔
-		m_pStationSetTabCtrlDlg[i]->m_sweepSpacing.GetWindowText(str);
-		g_Param.station[i].nScanInterval = _ttoi(str);
+		//m_pStationSetTabCtrlDlg[i]->m_sweepSpacing.GetWindowText(str);
+		//g_Param.station[i].nScanInterval = _ttoi(str);
 
 		//三通道参数
 		// 1
@@ -324,12 +324,12 @@ bool CStationSet::isInfoComplete()
 			}
 
 			// ! 检查扫描间隔
-			m_pStationSetTabCtrlDlg[i]->m_sweepSpacing.GetWindowText(strTemp1);
-			if (strTemp1 == "")
-			{
-				MessageBox(_T("请输入正确时间间隔!"), _T("警告"), MB_OK | MB_DEFBUTTON2);
-				return FALSE;
-			}
+// 			m_pStationSetTabCtrlDlg[i]->m_sweepSpacing.GetWindowText(strTemp1);
+// 			if (strTemp1 == "")
+// 			{
+// 				MessageBox(_T("请输入正确时间间隔!"), _T("警告"), MB_OK | MB_DEFBUTTON2);
+// 				return FALSE;
+// 			}
 
 			//三通道参数检查
 			// 待定

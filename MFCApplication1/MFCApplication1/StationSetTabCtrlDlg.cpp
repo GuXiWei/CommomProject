@@ -28,7 +28,7 @@ void CStationSetTabCtrlDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_COMBO_TEMPTYPE, m_tempType);
 	DDX_Control(pDX, IDC_EDIT_TEMPADDR, m_tempAddr);
 	DDX_Control(pDX, IDC_COMBO_TEMPCOM, m_tempCom);
-	DDX_Control(pDX, IDC_EDIT_SWEEPSPACING, m_sweepSpacing);
+	//DDX_Control(pDX, IDC_EDIT_SWEEPSPACING, m_sweepSpacing);
 	DDX_Control(pDX, IDC_EDIT_CHANNEL1, m_channel1);
 	DDX_Control(pDX, IDC_EDIT_CHANNEL1NAME, m_channel1Name);
 	DDX_Control(pDX, IDC_EDIT1_CHANNEL1SENSORTYPE, m_channel1SensorType);

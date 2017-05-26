@@ -26,7 +26,7 @@ public:
 	CComboBox m_tempType;
 	CEdit m_tempAddr;
 	CComboBox m_tempCom;
-	CEdit m_sweepSpacing;
+	//CEdit m_sweepSpacing;
 	CEdit m_channel1;
 	CEdit m_channel1Name;
 	CEdit m_channel1SensorType;

@@ -108,7 +108,7 @@ void CMFCApplication1View::OnInitialUpdate()
 	//3号工位
 	m_Station3.m_nType = 3;
 	//加载系统配置
-	loadSystemFile();
+	//loadSystemFile();
 	//显示温度 转速
 
 }
@@ -224,10 +224,10 @@ void CMFCApplication1View::OnStationset()
 	CStationSet StationSetDlg;
 	StationSetDlg.DoModal();
 	//第一次没有进行设置直接退出
-	if (g_SysParam.nStation == 0)
-	{
-		PostQuitMessage(0);
-	}
+// 	if (g_SysParam.nStation == 0)
+// 	{
+// 		PostQuitMessage(0);
+// 	}
 }
 
 /**
