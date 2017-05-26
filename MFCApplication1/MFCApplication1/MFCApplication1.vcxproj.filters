@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\全局数据">
+      <UniqueIdentifier>{0a5593f7-ecbc-42cc-b28e-d3f25e10ba53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\全局数据">
+      <UniqueIdentifier>{6e72b373-903d-4636-9cb3-e3599551971c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\工位设置">
+      <UniqueIdentifier>{de1c92db-44fb-4cee-9045-85164b5a4d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\工位设置">
+      <UniqueIdentifier>{2dfefb99-250f-47c6-b060-86f576b3f57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\工位设置\工位设置选项对话框">
+      <UniqueIdentifier>{c5f4494d-bf31-4e33-b2d0-00ad71e94645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\工位设置\工位设置选项对话框">
+      <UniqueIdentifier>{947525d2-e82b-48c9-a7c8-6257c89b8505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\打印">
+      <UniqueIdentifier>{abba2cb6-3d3c-46d0-a916-bfe35983c6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\打印">
+      <UniqueIdentifier>{2e3d0a4e-b2e9-4f08-9cca-6d4e8afbf072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication1Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication1View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogStationView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>头文件\全局数据</Filter>
+    </ClInclude>
+    <ClInclude Include="StationSet.h">
+      <Filter>头文件\工位设置</Filter>
+    </ClInclude>
+    <ClInclude Include="StationSetTabCtrlDlg.h">
+      <Filter>头文件\工位设置\工位设置选项对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectionTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDlg.h">
+      <Filter>头文件\打印</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewPrint.h">
+      <Filter>头文件\打印</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintFrame.h">
+      <Filter>头文件\打印</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintView.h">
+      <Filter>头文件\打印</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogStationView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>源文件\全局数据</Filter>
+    </ClCompile>
+    <ClCompile Include="StationSet.cpp">
+      <Filter>源文件\工位设置</Filter>
+    </ClCompile>
+    <ClCompile Include="StationSetTabCtrlDlg.cpp">
+      <Filter>源文件\工位设置\工位设置选项对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectionTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintDlg.cpp">
+      <Filter>源文件\打印</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintFrame.cpp">
+      <Filter>源文件\打印</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintView.cpp">
+      <Filter>源文件\打印</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewPrint.cpp">
+      <Filter>源文件\打印</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication1Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MFCApplication1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

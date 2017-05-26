@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/5/25 11:32:23。
+     1>项目“E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PrintFrame.cpp
+         PrintFrame.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\Debug\MFCApplication1.lib" /MACHINE:X86 Debug\MFCApplication1.res
+         Debug\DetectionTaskDlg.obj
+         Debug\DialogStationView.obj
+         Debug\GlobalData.obj
+         Debug\InitializeDlg.obj
+         Debug\MainFrm.obj
+         Debug\MFCApplication1.obj
+         Debug\MFCApplication1Doc.obj
+         Debug\MFCApplication1View.obj
+         Debug\PreviewPrint.obj
+         Debug\PrintDlg.obj
+         Debug\PrintFrame.obj
+         Debug\PrintView.obj
+         Debug\StationSet.obj
+         Debug\StationSetTabCtrlDlg.obj
+         Debug\stdafx.obj
+         MFCApplication1.vcxproj -> E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\Debug\MFCApplication1.exe
+     1>已完成生成项目“E:\vs2013项目\Visual Studio 2013\Projects\2017-5-16\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97
